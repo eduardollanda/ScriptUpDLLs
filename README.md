@@ -1,17 +1,17 @@
-# ScriptUpDLLs
-Script feito em Python para upar DLLs automaticamente para um determinado feed no AZURE DEVOPS
+﻿# ScriptUpDLLs
+Script made in Python to automatically load DLLs for a given feed in AZURE DEVOPS
 
-# Modo de uso
-* Adicione o feed
-
-```console
-eduardollanda@pc:~$ nuget.exe sources Add -Name "NOME DO SEU FEED" -Source "LINK DO FEED"
-```
-
-* Coloque o script onde estão as DLLs
-* Ao chamar o Script deve-se passar como argumento o nome de seu feed:
+# Instructions
+* Add this feed
 
 ```console
-eduardollanda@pc:~$ python DLLs "nome do seu feed"
+eduardollanda@pc:~$ nuget.exe sources Add -Name "name of your feed" -Source "LINK DO FEED"
 ```
-*OBS: Só é necessário adicionar o feed um unica vez 
+
+* Put the script where the DLLs are
+* When calling the script you should pass as argument the name of your feed:
+
+```console
+eduardollanda@pc:~$ python DLLs "name of your feed"
+```
+*OBS: You only need to add the feed once
