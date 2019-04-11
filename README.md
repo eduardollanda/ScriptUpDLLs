@@ -5,7 +5,7 @@ Script made in Python to automatically load DLLs for a given feed in AZURE DEVOP
 * Add this feed
 
 ```console
-eduardollanda@pc:~$ nuget.exe sources Add -Name "name of your feed" -Source "LINK DO FEED"
+eduardollanda@pc:~$ nuget.exe sources Add -Name "name of your feed" -Source "LINK OF FEED"
 ```
 
 * Put the script where the DLLs are
